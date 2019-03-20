@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Generador nombres bebés</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+<h1>Generador de nombres de bebé</h1>
+<div class="row">
+  <div class="col">
+  <!-- Formulario -->
+
+<p>Dinos  el sexo del bebé</p>
+<form  action="/" method="post">
+<br>
+  <label class="escoge" for="">ELIGE</label>
+  <select class="sexo" name="sexo">
+      <option value="valor0" default>..</option>
+<option value="valor1">niño</option>
+<option value="valor2">niña</option>
+</select><br>
+<label>Apellido del padre:</label>
+<input type="text" name="apadre" value="" placeholder="Apellido paterno"><br>
+<label>Apellido del madre:</label>
+<input type="text" name="amadre" value="" placeholder="Apellido materno"><br>
+
+
+  <button type="submit" name="button">GENERAR</button>
+
+</form>
+</div>
+<div class="col">
+  <img class="foto"src="fotos/anonimo.jpg" alt="Foto perfil">
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="/java/java.js" charset="utf-8"></script>
+  </body>
+</html>
