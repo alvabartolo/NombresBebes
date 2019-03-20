@@ -13,3 +13,12 @@ app.get("/",function(req,res){
 app.listen(3000,function(){
   console.log("El servidor está listo y escuchando en el puerto 3000");
 });
+app.post("/",function(req,res){
+//Recojo los valores que me envia desde elformulario
+  var sexo=(req.body.sexo);
+  var apellidoPaterno=(req.body.apadre);
+  var apellidoMaterno=(req.body.amadre);
+  if(sexo==="valor1"){
+    res.send("El nombre  es : "+(apellidoPaterno+apellidoMaterno));
+  }
+});

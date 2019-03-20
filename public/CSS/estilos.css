@@ -1,11 +1,14 @@
 body {
    padding: 5%;
-   background-image:url(public/fotos/fondo2.jpg);
-   background-color: azure;
+   background-image:url(/fotos/fondo1.jpg);
+   /* background-color: azure; */
    background-size: 100%;
 
 }
 .escoge{
   padding-bottom: 10%;
   text-align: left;
+}
+.foto{
+padding-top: 50%;
 }
